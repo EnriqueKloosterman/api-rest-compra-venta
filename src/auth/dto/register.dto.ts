@@ -3,15 +3,15 @@ import { MinLength, IsString, IsEmail, IsInt, IsDate } from 'class-validator';
 
 export class RegisterDto {
   @IsString()
-  @MinLength(3)
+  // @MinLength(3)
   name: string;
 
   @IsString()
-  @MinLength(3)
+  // @MinLength(3)
   last_name: string;
 
   @IsString()
-  @MinLength(3)
+  // @MinLength(3)
   business_name: string;
 
   @IsEmail()
